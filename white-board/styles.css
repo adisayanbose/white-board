@@ -1,0 +1,23 @@
+body
+{
+  margin: 0px;
+}
+*
+{
+  box-sizing: border-box;
+}
+.icons
+{
+  height: 5rem;
+}
+.tool-bar
+{
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+.tools
+{
+  display: flex;
+  gap: 1rem;
+}
