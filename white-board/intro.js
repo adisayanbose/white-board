@@ -44,3 +44,15 @@ for(let i=0;i<options.length;i++)
       })
   }
 }
+let board=document.querySelector(".board");
+board.height=window.innerHeight;
+board.width=window.innerWidth;
+let draw=board.getContext("2d");
+draw.lineWidth=10;
+draw.strokeStyle="black";
+draw.moveTo(50,50);
+draw.lineTo(50,500);
+draw.stroke();
+draw.moveTo(50,50);
+draw.lineTo(500,50);
+draw.stroke();
